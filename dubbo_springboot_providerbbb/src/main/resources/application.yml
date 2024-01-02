@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: dubbo-springboot-providerbbb
+  registry:
+    protocol: zookeeper
+    address: 192.168.247.5:2181
+  protocol:
+    port: 20885
+    dispatcher: all #所有消息都派发到线程池，包括请求，响应，连接事件，断开事件，心跳等。
+  config-center:
+    timeout: 6000
+
+server:
+  port: 8088
+
+

@@ -1,0 +1,2 @@
+dubbo=service.dubbo.impl.DubboProtocol
+rmi=service.dubbo.impl.RmiProtocol

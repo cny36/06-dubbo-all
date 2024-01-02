@@ -1,0 +1,3 @@
+mobile=service.live.impl.MobileLive
+beauty=service.live.wrapper.BeautyLiveWrapper
+face=service.live.wrapper.FaceLiveWrapper

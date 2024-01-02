@@ -1,0 +1,17 @@
+server:
+  port: 8087
+
+dubbo:
+  application:
+    name: dubbo-springboot-consumer
+  registry:
+    protocol: zookeeper
+    address: 192.168.247.5:2181
+  protocol:
+    port: 20884
+    serialization: kryo
+    name: dubbo
+  config-center:
+    timeout: 6000
+  consumer:
+    check: false
